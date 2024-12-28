@@ -1,0 +1,150 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f7fc;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+    border-bottom: 5px solid #16a085;
+}
+
+header h1 {
+    font-size: 3.5em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.3em;
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+.contact-info a {
+    color: #16a085;
+    text-decoration: none;
+}
+
+.download-btn {
+    background-color: #16a085;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.1em;
+    text-decoration: none;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.download-btn:hover {
+    background-color: #1abc9c;
+}
+
+section {
+    padding: 60px 0;
+}
+
+h2 {
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #2c3e50;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+ul li::before {
+    content: "✔️";
+    color: #16a085;
+    margin-right: 10px;
+}
+
+.experience h3,
+.education h3 {
+    font-size: 1.6em;
+    margin-top: 20px;
+    color: #2c3e50;
+}
+
+.projects {
+    background-color: #ffffff;
+}
+
+.project-item {
+    border: 1px solid #e1e1e1;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+}
+
+.project-item h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+
+.project-item p {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+    color: #333;
+}
+
+.project-item ul {
+    margin-bottom: 10px;
+}
+
+.project-item ul li {
+    margin-bottom: 5px;
+}
+
+.project-item a {
+    color: #16a085;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.project-item a:hover {
+    color: #1abc9c;
+}
+
+
+footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+footer p {
+    font-size: 1.1em;
+}
